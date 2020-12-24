@@ -1,20 +1,28 @@
+<!--
+ * @
+ * 
+ * @Author: Linxia GONG 巩琳霞 (linxiagong@gmail.com)
+ * @Date: 2020-12-23 21:04:48
+ * @LastEditors: Linxia GONG 巩琳霞
+ * @LastEditTime: 2020-12-24 16:04:13
+-->
 # Functionality
 
 <div class="flex-icon">
-    <div style="max-width:30%;" onclick="location.href='#pre-game-matchmaking'">
-        <img src="./assets/pics/icon-matchmaking.png" alt="icon-matchmaking" style="height:120pt;"/>
+    <div style="max-width:30%;height:150pt;" onclick="location.href='#pre-game-matchmaking'">
+        <img src="./assets/pics/icon-matchmaking.png" alt="icon-matchmaking" style="height:80%;"/>
         <p>Pre-Game Matchmaking</p>
     </div>
-    <div style="max-width:30%;" onclick="location.href='#in-game-win-prediction--comments-generation'">
-        <img src="./assets/pics/icon-prediction.png" alt="icon-in-game" style="height:120pt;"/>
+    <div style="max-width:30%;;height:150pt;" onclick="location.href='#in-game-win-prediction--comments-generation'">
+        <img src="./assets/pics/icon-prediction.png" alt="icon-in-game" style="height:80%;"/>
         <p>In-Game Win-Prediction & Comments-Generation</p>
     </div>
-    <div style="max-width:30%;" onclick="location.href='#post-game-analysis'">
-        <img src="./assets/pics/icon-group-analysis.png" alt="icon-post-game" style="height:120pt;padding-top: 40pt;"/>
-        <img src="./assets/pics/icon-performance-analysis.png" alt="icon-post-game" style="height:120pt;padding-bottom: 40pt;"/>
+    <div style="max-width:30%;;height:150pt;" onclick="location.href='#post-game-analysis'">
+        <img src="./assets/pics/icon-analysis.png" alt="icon-post-game" style="height:80%;"/>
         <p>Post-Game Analysis</p>
     </div>
 </div>
+
 
 ## Pre-Game Matchmaking
 > Matchmaking is the process of arranging queueing players into competitions.
@@ -51,7 +59,7 @@ AI algorithms are applied to 3 processes in a matchmaking system:
 - <mark><em>Reproduction</em></mark> 【WWW'17】EOMM: An Engagement Optimized Matchmaking &nbsp;[>>Blog & Code & Data](../EOMM/)
 
 ### Practical Tricks
-- How to measure a win-prediction model in the matchmaking context?
+- How to measure a win-prediction model in the matchmaking context
 
 ### Basics and Prerequisites
 - ELO
